@@ -1,0 +1,28 @@
+# Папка виртуального окружения
+venv/
+
+# Файлы базы данных
+*.sqlite3
+db.sqlite3
+
+# Лог-файлы
+*.log
+
+# Папка конфигурации VSCode
+.vscode/
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Файлы локальных настроек Django
+local_settings.py
+*.pot
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
