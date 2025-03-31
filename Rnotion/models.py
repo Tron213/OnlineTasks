@@ -19,4 +19,11 @@ class Tasks(models.Model):
     def __str__(self):
         return self.Task
     
+class NewTask(models.Model):
+    tgID = models.CharField(max_length=30)
+    Task = models.TextField()
+    Description = models.TextField()
+    Deadline = models.DateTimeField()
 
+    def __str__(self):
+        return self.Task
